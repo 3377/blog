@@ -1,35 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>My New Hugo Site</title>
-        <link>http://localhost:1313/</link>
-        <description>Recent content on My New Hugo Site</description>
-        <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Mon, 22 Apr 2024 02:02:02 +0800</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>My First Post</title>
-        <link>http://localhost:1313/post/my-first-post/</link>
-        <pubDate>Mon, 22 Apr 2024 02:02:02 +0800</pubDate>
-        
-        <guid>http://localhost:1313/post/my-first-post/</guid>
-        <description>&lt;p&gt;大家好，我是渣渣辉。&lt;/p&gt;
-&lt;h1 id=&#34;简介&#34;&gt;
-    &lt;a href=&#34;#%e7%ae%80%e4%bb%8b&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    简介
-&lt;/h1&gt;&lt;ul&gt;
-&lt;li&gt;出生地：香港&lt;/li&gt;
-&lt;li&gt;性别：男&lt;/li&gt;
-&lt;li&gt;年龄：38&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h1 id=&#34;演员经历&#34;&gt;
-    &lt;a href=&#34;#%e6%bc%94%e5%91%98%e7%bb%8f%e5%8e%86&#34; class=&#34;header-anchor&#34;&gt;#&lt;/a&gt;
-    演员经历
-&lt;/h1&gt;&lt;ol&gt;
-&lt;li&gt;是兄弟就来啃我&lt;/li&gt;
-&lt;li&gt;是兄弟就来啃我啊&lt;/li&gt;
-&lt;/ol&gt;
-</description>
-        </item>
-        
-    </channel>
+  <channel>
+    <title>Drfy</title>
+    <link>http://localhost:8888/</link>
+    <description>Recent content on Drfy</description>
+    <generator>Hugo</generator>
+    <language>zh-Hans</language>
+    <lastBuildDate>Sun, 30 Mar 2025 23:04:01 +0000</lastBuildDate>
+    <atom:link href="http://localhost:8888/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obsidian的MarkDown超级教程</title>
+      <link>http://localhost:8888/post/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B/</link>
+      <pubDate>Sun, 30 Mar 2025 23:04:01 +0000</pubDate>
+      <guid>http://localhost:8888/post/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Google Gemini API</title>
+      <link>http://localhost:8888/ai/google-gemini-api/</link>
+      <pubDate>Sat, 29 Mar 2025 23:04:01 +0000</pubDate>
+      <guid>http://localhost:8888/ai/google-gemini-api/</guid>
+      <description></description>
+    </item>
+  </channel>
 </rss>

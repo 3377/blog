@@ -1,0 +1,889 @@
+
+
+
+
+
+
+
+<!doctype html>
+<html
+  lang="zh-Hans"
+  dir="ltr"
+  class="scroll-smooth"
+  data-default-appearance="light"
+  data-auto-appearance="true"
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8888&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#FFFFFF" />
+  
+  <title>Google Gemini API &middot; Drfy</title>
+    <meta name="title" content="Google Gemini API &middot; Drfy" />
+  
+  
+  
+  
+  
+  <script
+    type="text/javascript"
+    src="/js/appearance.min.8a082f81b27f3cb2ee528df0b0bdc39787034cf2cc34d4669fbc9977c929023c.js"
+    integrity="sha256-iggvgbJ/PLLuUo3wsL3Dl4cDTPLMNNRmn7yZd8kpAjw="
+  ></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  <link
+    type="text/css"
+    rel="stylesheet"
+    href="/css/main.bundle.min.8f25b3b1fdd42cfaf2092d7e98b41f6474cfaf471f6aeb265f7ba2579197e54e.css"
+    integrity="sha256-jyWzsf3ULPryCS1&#43;mLQfZHTPr0cfausmX3uiV5GX5U4="
+  />
+  
+    
+    
+    
+  
+  
+  
+  
+  
+  
+    
+    <script
+      defer
+      type="text/javascript"
+      id="script-bundle"
+      src="/js/main.bundle.min.0bbcea4e5283380203d18200c30d26a1b77eead347d09965312bfdd5dd43de71.js"
+      integrity="sha256-C7zqTlKDOAID0YIAww0mobd&#43;6tNH0JllMSv91d1D3nE="
+      data-copy="复制"
+      data-copied="已复制"
+    ></script>
+  
+  
+  <meta
+    name="description"
+    content="
+      
+        
+      
+    "
+  />
+  
+  
+  
+  <link rel="canonical" href="http://localhost:8888/ai/google-gemini-api/" />
+  
+  
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:url" content="http://localhost:8888/ai/google-gemini-api/">
+  <meta property="og:site_name" content="Drfy">
+  <meta property="og:title" content="Google Gemini API">
+  <meta property="og:locale" content="zh_Hans">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="ai">
+    <meta property="article:published_time" content="2025-03-29T23:04:01+00:00">
+    <meta property="article:modified_time" content="2025-03-29T23:04:01+00:00">
+    <meta property="article:tag" content="Gemini">
+    <meta property="article:tag" content="Obsidian">
+
+  
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Google Gemini API">
+
+  
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "AIs",
+    "name": "Google Gemini API",
+    "headline": "Google Gemini API",
+    
+    
+    "inLanguage": "zh-Hans",
+    "url" : "http:\/\/localhost:8888\/ai\/google-gemini-api\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Drfy"
+    },
+    "copyrightYear": "2025",
+    "dateCreated": "2025-03-29T23:04:01\u002b00:00",
+    "datePublished": "2025-03-29T23:04:01\u002b00:00",
+    
+    "dateModified": "2025-03-29T23:04:01\u002b00:00",
+    
+    "keywords": ["gemini","obsidian"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "194"
+  }
+  </script>
+    
+    <script type="application/ld+json">
+    {
+   "@context": "https://schema.org",
+   "@type": "BreadcrumbList",
+   "itemListElement": [
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:8888/",
+       "name": "Drfy",
+       "position": 1
+     },
+     {
+       "@type": "ListItem",
+       "item": "http://localhost:8888/ai/",
+       "name": "Ais",
+       "position": 2
+     },
+     {
+       "@type": "ListItem",
+       "name": "Google Gemini API",
+       "position": 3
+     }
+   ]
+ }
+  </script>
+
+  
+  <meta name="author" content="Drfy" />
+  
+  
+  
+
+
+
+
+
+
+  
+  
+
+  
+  
+</head>
+<body
+    class="m-auto flex h-screen max-w-7xl flex-col bg-neutral px-6 text-lg leading-7 text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32"
+  >
+    <div id="the-top" class="absolute flex self-center">
+      <a
+        class="-translate-y-8 rounded-b-lg bg-primary-200 px-3 py-1 text-sm focus:translate-y-0 dark:bg-neutral-600"
+        href="#main-content"
+        ><span class="pe-2 font-bold text-primary-600 dark:text-primary-400">&darr;</span
+        >跳到主要内容</a
+      >
+    </div>
+    
+    
+      <header class="py-6 font-semibold text-neutral-900 dark:text-neutral sm:py-10 print:hidden">
+  <nav class="flex items-start justify-between sm:items-center">
+    
+    <div class="flex flex-row items-center">
+      
+  <a
+    class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2"
+    rel="me"
+    href="/"
+    >Drfy</a
+  >
+
+    </div>
+    
+    
+      <ul class="flex list-none flex-col text-end sm:flex-row">
+        
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/post/"
+                  title="Posts"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >博客</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="/ai/"
+                  title="AIs"
+                  
+                  ><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >AI相关</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                <a
+                  href="https://github.com/3377/blog"
+                  title=""
+                  target="_blank"
+                  >
+                    <span
+                      class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                    ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></span><span
+                      class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                      >GitHub</span
+                    >
+                  </a
+                >
+              
+            </li>
+          
+            
+            <li class="group mb-1 sm:mb-0 sm:me-7 sm:last:me-0.5">
+              
+                
+                
+                  <button
+                    id="search-button-1"
+                    title="搜索 (/)"
+                  >
+                    
+                      <span
+                        class="group-dark:hover:text-primary-400 transition-colors group-hover:text-primary-600"
+                      ><span class="icon relative inline-block px-1 align-text-bottom"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span></span><span
+                        class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                        ></span
+                      >
+                    
+                  </button>
+                
+              
+            </li>
+          
+          
+        
+      </ul>
+    
+  </nav>
+</header>
+
+    
+    <div class="relative flex grow flex-col">
+      <main id="main-content" class="grow">
+        
+  <article>
+    <header class="max-w-prose">
+      
+        <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="hidden inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="/"
+      >Drfy</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class=" inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="/ai/"
+      >AIs</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="hidden inline">
+    <a
+      class="dark:underline-neutral-600 decoration-neutral-300 hover:underline"
+      href="/ai/google-gemini-api/"
+      >Google Gemini API</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+      
+      <h1 class="mb-8 mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+        Google Gemini API
+      </h1>
+      
+        <div class="mb-10 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+          
+
+
+
+
+
+  
+  
+
+
+
+  
+
+  
+  
+    
+  
+
+  
+
+  
+    
+  
+
+  
+    
+  
+
+  
+    
+  
+
+
+  <div class="flex flex-row flex-wrap items-center">
+    
+    
+      <time datetime="2025-03-29 23:04:01 &#43;0000 UTC">29 三月 2025</time><span class="px-2 text-primary-500">&middot;</span><span>194 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">1 分钟</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+  
+  
+
+<span class="mb-[2px]">
+  <a
+    href="https://github.com/3377/blog/AI/Google%20Gemini%20API.md"
+    class="text-lg hover:text-primary-500"
+    rel="noopener noreferrer"
+    target="_blank"
+    title="编辑内容"
+    ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M490.3 40.4C512.2 62.27 512.2 97.73 490.3 119.6L460.3 149.7L362.3 51.72L392.4 21.66C414.3-.2135 449.7-.2135 471.6 21.66L490.3 40.4zM172.4 241.7L339.7 74.34L437.7 172.3L270.3 339.6C264.2 345.8 256.7 350.4 248.4 353.2L159.6 382.8C150.1 385.6 141.5 383.4 135 376.1C128.6 370.5 126.4 361 129.2 352.4L158.8 263.6C161.6 255.3 166.2 247.8 172.4 241.7V241.7zM192 63.1C209.7 63.1 224 78.33 224 95.1C224 113.7 209.7 127.1 192 127.1H96C78.33 127.1 64 142.3 64 159.1V416C64 433.7 78.33 448 96 448H352C369.7 448 384 433.7 384 416V319.1C384 302.3 398.3 287.1 416 287.1C433.7 287.1 448 302.3 448 319.1V416C448 469 405 512 352 512H96C42.98 512 0 469 0 416V159.1C0 106.1 42.98 63.1 96 63.1H192z"/></svg>
+</span></a
+  >
+</span>
+    
+
+    
+    
+  </div>
+
+  
+  
+    <div class="my-1 flex flex-wrap text-xs leading-relaxed text-neutral-500 dark:text-neutral-400">
+      
+        
+      
+        
+          
+            <a
+              href="/tags/gemini/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Gemini</a
+            >
+          
+            <a
+              href="/tags/obsidian/"
+              class="mx-1 my-1 rounded-md border border-neutral-200 px-1 py-[1px] hover:border-primary-300 hover:text-primary-700 dark:border-neutral-600 dark:hover:border-primary-600 dark:hover:text-primary-400"
+              >Obsidian</a
+            >
+          
+        
+      
+    </div>
+  
+
+
+        </div>
+      
+      
+    </header>
+    <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+      <div class="min-h-0 min-w-0 max-w-prose grow">
+        <h2 id="模型请求限制对比表" class="relative group">模型请求限制对比表 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e6%a8%a1%e5%9e%8b%e8%af%b7%e6%b1%82%e9%99%90%e5%88%b6%e5%af%b9%e6%af%94%e8%a1%a8" aria-label="锚点">#</a></span></h2><h3 id="请求数量限制按分钟天" class="relative group">请求数量限制（按分钟/天） <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%af%b7%e6%b1%82%e6%95%b0%e9%87%8f%e9%99%90%e5%88%b6%e6%8c%89%e5%88%86%e9%92%9f%e5%a4%a9" aria-label="锚点">#</a></span></h3><table>
+  <thead>
+      <tr>
+          <th>模型名称</th>
+          <th>免费层级(每分钟)</th>
+          <th>免费层级(每天)</th>
+          <th>付费层级 1(每分钟)</th>
+          <th>付费层级 2(每分钟)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>gemini-1.0-pro</td>
+          <td>15</td>
+          <td>1,500</td>
+          <td>360</td>
+          <td>360</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-flash</td>
+          <td>15</td>
+          <td>1,500</td>
+          <td>2,000</td>
+          <td>2,000</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-flash-8b</td>
+          <td>15</td>
+          <td>1,500</td>
+          <td>4,000</td>
+          <td>4,000</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-flash-8b-exp</td>
+          <td>15</td>
+          <td>1,500</td>
+          <td>15</td>
+          <td>15</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-flash-exp</td>
+          <td>5</td>
+          <td>1,500</td>
+          <td>5</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-pro</td>
+          <td>2</td>
+          <td>50</td>
+          <td>1,000</td>
+          <td>1,000</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-pro-exp</td>
+          <td>5</td>
+          <td>100</td>
+          <td>5</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-exp</td>
+          <td>5</td>
+          <td>100</td>
+          <td>5</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash</td>
+          <td>15</td>
+          <td>1,500</td>
+          <td>2,000</td>
+          <td>10,000</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash-exp</td>
+          <td>10</td>
+          <td>1,500</td>
+          <td>10</td>
+          <td>10</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash-exp-audio</td>
+          <td>2</td>
+          <td>-</td>
+          <td>2</td>
+          <td>2</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash-exp-image</td>
+          <td>2</td>
+          <td>-</td>
+          <td>2</td>
+          <td>2</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash-lite</td>
+          <td>30</td>
+          <td>1,500</td>
+          <td>4,000</td>
+          <td>4,000</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-pro-exp</td>
+          <td>2</td>
+          <td>50</td>
+          <td>5</td>
+          <td>5</td>
+      </tr>
+      <tr>
+          <td>gemini-exp-03-19</td>
+          <td>2</td>
+          <td>50</td>
+          <td>2</td>
+          <td>2</td>
+      </tr>
+      <tr>
+          <td>med-gemini</td>
+          <td>60</td>
+          <td>50,000</td>
+          <td>-</td>
+          <td>-</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="输入令牌限制每分钟" class="relative group">输入令牌限制（每分钟） <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e8%be%93%e5%85%a5%e4%bb%a4%e7%89%8c%e9%99%90%e5%88%b6%e6%af%8f%e5%88%86%e9%92%9f" aria-label="锚点">#</a></span></h3><table>
+  <thead>
+      <tr>
+          <th>模型名称</th>
+          <th>免费层级输入令牌(每分钟)</th>
+          <th>付费层级输入令牌(每分钟)</th>
+          <th>付费层级 2 输入令牌(每分钟)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>gemini-1.0-pro</td>
+          <td>32,000</td>
+          <td>120,000</td>
+          <td>120,000</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-flash</td>
+          <td>1,000,000</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-flash-8b</td>
+          <td>1,000,000</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-flash-8b-exp</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-flash-exp</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-pro</td>
+          <td>32,000</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-1.5-pro-exp</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-exp</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash</td>
+          <td>1,000,000</td>
+          <td>4,000,000</td>
+          <td>10,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash-exp</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash-exp-audio</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash-exp-image</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-flash-lite</td>
+          <td>1,000,000</td>
+          <td>4,000,000</td>
+          <td>4,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-2.0-pro-exp</td>
+          <td>2,000,000</td>
+          <td>2,000,000</td>
+          <td>2,000,000</td>
+      </tr>
+      <tr>
+          <td>gemini-exp-03-19</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+          <td>1,000,000</td>
+      </tr>
+  </tbody>
+</table>
+<h3 id="特殊配额限制" class="relative group">特殊配额限制 <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e7%89%b9%e6%ae%8a%e9%85%8d%e9%a2%9d%e9%99%90%e5%88%b6" aria-label="锚点">#</a></span></h3><table>
+  <thead>
+      <tr>
+          <th>配额名称</th>
+          <th>模型</th>
+          <th>限制值</th>
+          <th>备注</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>免费层级每模型每天生成内容的输入令牌数量限制</td>
+          <td>gemini-2.0-pro-exp</td>
+          <td>5,000,000</td>
+          <td>-</td>
+      </tr>
+      <tr>
+          <td>带 Search 功能的每日请求限制(免费层级)</td>
+          <td>gemini-2.0</td>
+          <td>1,500</td>
+          <td>-</td>
+      </tr>
+      <tr>
+          <td>带 Search 功能的每日请求限制(付费层级)</td>
+          <td>gemini-2.0</td>
+          <td>5,000</td>
+          <td>-</td>
+      </tr>
+      <tr>
+          <td>带 Search 功能的每日请求限制(付费层级)</td>
+          <td>gemini-1.5</td>
+          <td>5,000</td>
+          <td>-</td>
+      </tr>
+      <tr>
+          <td>免费层级所有缓存内容的最大令牌数</td>
+          <td>gemini-1.5-flash</td>
+          <td>1,000,000</td>
+          <td>-</td>
+      </tr>
+      <tr>
+          <td>免费层级所有缓存内容的最大令牌数</td>
+          <td>gemini-1.5-flash-8b</td>
+          <td>1,000,000</td>
+          <td>-</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+
+      </div>
+    </section>
+    <footer class="max-w-prose pt-8 print:hidden">
+      
+  <div class="flex">
+    
+    
+    
+      
+      
+    
+    <div class="place-self-center">
+      
+        <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+          作者
+        </div>
+        <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+          Drfy
+        </div>
+      
+      
+        <div class="text-sm text-neutral-700 dark:text-neutral-400">A little bit about you</div>
+      
+      <div class="text-2xl sm:text-lg">
+</div>
+    </div>
+  </div>
+
+
+      
+
+      
+  
+
+
+      
+        
+          
+        
+      
+    </footer>
+  </article>
+
+      </main>
+      
+        <div
+          class="pointer-events-none absolute bottom-0 end-0 top-[100vh] w-12"
+          id="to-top"
+          hidden="true"
+        >
+          <a
+            href="#the-top"
+            class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 backdrop-blur hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+            aria-label="回到顶部"
+            title="回到顶部"
+          >
+            &uarr;
+          </a>
+        </div>
+      <footer class="py-10 print:hidden">
+  
+  
+    <nav class="pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex list-none flex-col sm:flex-row">
+        
+          
+          <li class="group mb-1 text-end sm:mb-0 sm:me-7 sm:last:me-0">
+            
+              <a
+                href=""
+                title=""
+                
+                ><span
+                    class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
+                    >隐私</span
+                  >
+                </a
+              >
+            
+          </li>
+        
+      </ul>
+    </nav>
+  
+  <div class="flex items-center justify-between">
+    <div>
+      
+      
+        <p class="text-sm text-neutral-500 dark:text-neutral-400">
+            &copy;
+            2025
+            Drfy
+        </p>
+      
+      
+      
+        <p class="text-xs text-neutral-500 dark:text-neutral-400">
+          
+          
+          由 <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500"
+            href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; <a class="hover:underline hover:decoration-primary-400 hover:text-primary-500" href="https://github.com/jpanther/congo" target="_blank" rel="noopener noreferrer">Congo</a> 强力驱动
+        </p>
+      
+    </div>
+    <div class="flex flex-row items-center">
+      
+      
+      
+      
+        <div
+          class="me-14 cursor-pointer text-sm text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        >
+          <button id="appearance-switcher-0" type="button" aria-label="appearance switcher">
+            <div
+              class="flex h-12 w-12 items-center justify-center dark:hidden"
+              title="切换为深色模式"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+</span>
+            </div>
+            <div
+              class="hidden h-12 w-12 items-center justify-center dark:flex"
+              title="切换为浅色模式"
+            >
+              <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+</span>
+            </div>
+          </button>
+        </div>
+      
+    </div>
+  </div>
+  
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="http://localhost:8888/"
+>
+  <div
+    id="search-modal"
+    class="top-20 mx-auto flex min-h-0 w-full max-w-3xl flex-col rounded-md border border-neutral-200 bg-neutral shadow-lg dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex flex-none items-center justify-between px-2">
+      <form class="flex min-w-0 flex-auto items-center">
+        <div class="flex h-8 w-8 items-center justify-center text-neutral-400">
+          <span class="icon relative inline-block px-1 align-text-bottom"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+</span>
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="mx-1 flex h-12 flex-auto appearance-none bg-transparent focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="搜索"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex h-8 w-8 items-center justify-center text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="关闭 (Esc)"
+      >
+        <span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+</span>
+      </button>
+    </header>
+    <section class="flex-auto overflow-auto px-2">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+    </div>
+  </body>
+</html>
