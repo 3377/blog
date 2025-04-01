@@ -15,7 +15,7 @@ title = "Drfy"
 [params.author]
   name = "Drfy"
   image = "img/author.jpg"
-  headline = "I'm only human"
+  headline = "{{< hitokoto >}}"
   bio = "A little bit about you"
    links = [
      { email = "mailto:hello@your_domain.com" },

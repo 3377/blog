@@ -1,0 +1,7 @@
+{{ $url := "https://v1.hitokoto.cn?c=i&c=d&c=k" }} {{ $data :=
+resources.GetRemote $url | transform.Unmarshal }} {{ $data.hitokoto }}{{ if or
+$data.from_who $data.from }}
+<span style="font-size: 0.85em; opacity: 0.8"
+  >—— {{ if $data.from_who }}{{ $data.from_who }}{{ else }}《{{ $data.from
+  }}》{{ end }}</span
+>{{ end }}
