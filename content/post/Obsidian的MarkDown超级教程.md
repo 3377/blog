@@ -7,6 +7,7 @@ tags:
   - 教程
 draft: false
 showTableOfContents: true
+summary: "Obsidian的MarkDown超级教程"
 ---
 
 ## 什么是 Markdown?
@@ -14,7 +15,6 @@ showTableOfContents: true
 1. **Markdown** 是一款轻量级标记语言，不同于 HTML **(Hypertext Markup Language)**，**Markdown** 的语法非常简单，且容易上手
 2. **Markdown** 以 **纯文本格式** 编写文档，依赖键盘而非鼠标，专注于**写作本身**，感受**书写**的魅力
 3. **Markdown** 的通过添加一些简单的 **标识符**，让文本具有**恰到好处**的格式
-<!--more-->
 4. **Markdown** 核心特征就是 **删繁剪芜**， **简扼** + **精炼**
 5. **Markdown** 是 **笔记** 与 **网页文章** 的最佳载体
 6. **Down** 的核心：坐 **下** 来，就能把思维写 **下** 来

@@ -32,8 +32,8 @@ fingerprintAlgorithm = "sha256"
 [header]
   # 布局类型：basic(基本), hamburger(汉堡菜单), hybrid(混合), custom(自定义)
   layout = "basic" 
-  # logo = "img/logo.jpg"
-  # logoDark = "img/dark-logo.jpg"
+  logo = "img/logo.jpg"
+  logoDark = "img/dark-logo.jpg"
   # 是否显示标题
   showTitle = true
 
