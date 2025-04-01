@@ -33,7 +33,7 @@ title = "Drfy"
   # 作者简介（显示在头像下方）
   headline = "{{< hitokoto >}}"
   # 作者传记
-  bio = "A little bit about you"
+  bio = "互联网民工-专注于AI"
   # 作者社交链接
   links = [
     { email = "mailto:hello@your_domain.com" },

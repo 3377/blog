@@ -1,14 +1,16 @@
 ---
 title: Obsidian的MarkDown超级教程
-date: "2025-03-30 23:04:01"
+date: "2025-03-30 23:04:11"
 tags:
   - markdown
   - obsidian
   - 教程
 draft: false
 showTableOfContents: true
-summary: "Obsidian的MarkDown超级教程"
+feature: "cx.png"
 ---
+
+![测试图片](https://cxt.pages.dev/file/1735288569879_cx-star-new.png)
 
 ## 什么是 Markdown?
 

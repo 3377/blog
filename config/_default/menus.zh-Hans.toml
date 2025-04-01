@@ -20,12 +20,17 @@
   name = "AI"
   pageRef = "ai"
   weight = 30
-
+  
+# 标签页面菜单项
+[[main]]
+  name = "标签"
+  pageRef = "tags"
+  weight = 40
 # 关于页面菜单项
 [[main]]
   name = "关于"
   pageRef = "about"
-  weight = 40
+  weight = 50
 
 # 搜索图标菜单项
 [[main]]
