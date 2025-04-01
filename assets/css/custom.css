@@ -1,0 +1,124 @@
+/* 
+   调整博客内容宽度
+   取消注释下面的某一行代码以选择您想要的宽度
+*/
+
+/* 选项1: 适中宽度 (推荐用于阅读长文) */
+.max-w-prose {
+    max-width: 95ch !important;
+}
+
+/* 选项2: 较宽宽度 */
+/* 
+.max-w-prose {
+    max-width: 85ch !important;
+}
+*/
+
+/* 选项3: 更宽宽度 */
+/*
+.max-w-prose {
+    max-width: 95ch !important;
+}
+*/
+
+/* 选项4: 非常宽 (适合宽屏) */
+/*
+.max-w-prose {
+    max-width: 120ch !important;
+}
+*/
+
+/* 如果需要调整文章内图片宽度，可以取消下面注释 */
+/*
+article img {
+    max-width: 100%;
+    height: auto;
+}
+*/
+
+/* 调整目录宽度 (如果启用了目录) */
+
+.toc {
+    width: 280px !important;
+}
+
+/* 强制显示目录 */
+.lg\:max-w-xs {
+    max-width: 20rem !important;
+    display: block !important;
+}
+
+.lg\:order-last {
+    order: 9999 !important;
+}
+
+/* 增强目录显示效果 */
+.toc-container {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+    height: auto;
+    max-height: calc(100vh - 4rem);
+    overflow-y: auto;
+    padding: 1rem;
+    border-left: 1px solid rgba(125, 125, 125, 0.3);
+}
+
+.dark .toc-container {
+    border-left-color: rgba(235, 235, 235, 0.2);
+}
+
+.toc details {
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+}
+
+.toc summary {
+    cursor: pointer;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.toc-content {
+    padding-left: 0.5rem;
+}
+
+.toc-content ul {
+    list-style-type: none;
+    margin: 0.5rem 0;
+    padding-left: 1rem;
+}
+
+.toc-content ul ul {
+    margin: 0.25rem 0;
+}
+
+.toc-content a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.toc-content a:hover {
+    text-decoration: underline;
+}
+
+/* 确保在移动设备上正确显示目录 */
+@media (max-width: 1023px) {
+    .toc-container {
+        display: block !important;
+        position: relative;
+        width: 100%;
+        margin: 2rem 0;
+        padding: 1rem;
+        border-left: none;
+        border-top: 1px solid rgba(125, 125, 125, 0.3);
+        border-bottom: 1px solid rgba(125, 125, 125, 0.3);
+    }
+
+    .dark .toc-container {
+        border-top-color: rgba(235, 235, 235, 0.2);
+        border-bottom-color: rgba(235, 235, 235, 0.2);
+    }
+}

@@ -12,7 +12,7 @@
   class="scroll-smooth"
   data-default-appearance="light"
   data-auto-appearance="true"
-><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=8888&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="theme-color" content="#FFFFFF" />
@@ -36,12 +36,14 @@
   
   
   
+    
+  
   
   <link
     type="text/css"
     rel="stylesheet"
-    href="/css/main.bundle.min.8f25b3b1fdd42cfaf2092d7e98b41f6474cfaf471f6aeb265f7ba2579197e54e.css"
-    integrity="sha256-jyWzsf3ULPryCS1&#43;mLQfZHTPr0cfausmX3uiV5GX5U4="
+    href="/css/main.bundle.min.086c5532dc5866cf80462e2c00b01ddd4fbdf30d802f3929c1dee3f8a68ab047.css"
+    integrity="sha256-CGxVMtxYZs&#43;ARi4sALAd3U&#43;98w2ALzkpwd7j&#43;KaKsEc="
   />
   
     
@@ -76,7 +78,7 @@
   
   
   
-  <link rel="canonical" href="http://localhost:1313/post/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B/" />
+  <link rel="canonical" href="http://localhost:8888/post/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B/" />
   
   
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
@@ -91,7 +93,7 @@
   
   
   
-  <meta property="og:url" content="http://localhost:1313/post/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B/">
+  <meta property="og:url" content="http://localhost:8888/post/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B/">
   <meta property="og:site_name" content="Drfy">
   <meta property="og:title" content="Obsidian的MarkDown超级教程">
   <meta property="og:locale" content="zh_Hans">
@@ -118,7 +120,7 @@
     
     
     "inLanguage": "zh-Hans",
-    "url" : "http:\/\/localhost:1313\/post\/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B\/",
+    "url" : "http:\/\/localhost:8888\/post\/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B\/",
     "author" : {
       "@type": "Person",
       "name": "Drfy"
@@ -143,13 +145,13 @@
    "itemListElement": [
      {
        "@type": "ListItem",
-       "item": "http://localhost:1313/",
+       "item": "http://localhost:8888/",
        "name": "Drfy",
        "position": 1
      },
      {
        "@type": "ListItem",
-       "item": "http://localhost:1313/post/",
+       "item": "http://localhost:8888/post/",
        "name": "日常博客",
        "position": 2
      },
@@ -164,6 +166,12 @@
 
   
   <meta name="author" content="Drfy" />
+  
+    
+      <link href="mailto:hello@your_domain.com" rel="me" />
+    
+      <link href="https://github.com/3377" rel="me" />
+    
   
   
   
@@ -215,7 +223,7 @@
               
                 <a
                   href="/post/"
-                  title="Posts"
+                  title="日常博客"
                   
                   ><span
                       class="decoration-primary-500 group-hover:underline group-hover:decoration-2 group-hover:underline-offset-2"
@@ -393,7 +401,7 @@
   <div class="flex flex-row flex-wrap items-center">
     
     
-      <time datetime="2025-03-30 23:04:01 &#43;0000 UTC">30 三月 2025</time><span class="px-2 text-primary-500">&middot;</span><span>4363 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">21 分钟</span><span class="px-2 text-primary-500">&middot;</span>
+      <time datetime="2025-03-30 23:04:01 &#43;0000 UTC">2025年3月30日 23:04:01</time><span class="px-2 text-primary-500">&middot;</span><span>4363 字</span><span class="px-2 text-primary-500">&middot;</span><span title="预计阅读">21 分钟</span><span class="px-2 text-primary-500">&middot;</span>
 
 
   
@@ -453,6 +461,276 @@
       
     </header>
     <section class="prose mt-0 flex max-w-full flex-col dark:prose-invert lg:flex-row">
+      
+        <div class="order-first px-0 lg:order-last lg:max-w-xs lg:ps-8">
+          <div class="toc pe-5 lg:sticky lg:top-10 print:hidden">
+            <details open class="-ms-5 mt-0 overflow-hidden rounded-lg ps-5">
+  <summary
+    class="block cursor-pointer bg-neutral-100 py-1 ps-5 text-lg font-semibold text-neutral-800 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden"
+  >
+    目录
+  </summary>
+  <div
+    class="border-s border-dotted border-neutral-300 py-2 ps-5 dark:border-neutral-600"
+  >
+     <nav id="TableOfContents">
+  <ol>
+    <li><a href="#什么是-markdown">什么是 Markdown?</a>
+      <ol>
+        <li><a href="#为什么要使用-markdown">为什么要使用 Markdown?</a></li>
+        <li><a href="#markdown-相关软件推荐">Markdown 相关软件推荐</a></li>
+      </ol>
+    </li>
+    <li><a href="#markdown-语法">Markdown 语法</a>
+      <ol>
+        <li><a href="#1-标题目录">1. 标题&amp;目录</a>
+          <ol>
+            <li><a href="#11-标题">1.1 标题</a></li>
+            <li><a href="#12-目录">1.2 目录</a></li>
+          </ol>
+        </li>
+        <li><a href="#2-斜体粗体">2. 斜体&amp;粗体</a>
+          <ol>
+            <li><a href="#21-斜体">2.1 斜体</a>
+              <ol>
+                <li><a href="#示范">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#22-粗体">2.2 粗体</a>
+              <ol>
+                <li><a href="#示范-1">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#23-粗斜体-斜粗体">2.3 粗斜体 (斜粗体)</a>
+              <ol>
+                <li><a href="#示范-2">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#24-斜体包含粗体">2.4 斜体包含粗体</a>
+              <ol>
+                <li><a href="#示范-3">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#25-粗体包含斜体">2.5 粗体包含斜体</a>
+              <ol>
+                <li><a href="#示范-4">示范</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li><a href="#3-线">3. 线</a>
+          <ol>
+            <li><a href="#31-水平分割线">3.1 水平分割线</a>
+              <ol>
+                <li><a href="#示范-5">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#32-文本删除线">3.2 文本删除线</a>
+              <ol>
+                <li><a href="#示范-6">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#33-文本下划线">3.3 文本下划线</a>
+              <ol>
+                <li><a href="#示范-7">示范</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li><a href="#4-列表引用">4. 列表&amp;引用</a>
+          <ol>
+            <li><a href="#41-有序列表">4.1 有序列表</a>
+              <ol>
+                <li><a href="#示范-8">示范</a></li>
+                <li><a href="#补充">补充</a></li>
+              </ol>
+            </li>
+            <li><a href="#42-无序列表">4.2 无序列表</a>
+              <ol>
+                <li><a href="#示范-9">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#43-引用">4.3 引用</a>
+              <ol>
+                <li><a href="#示范-10">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#44-缩进退格">4.4 缩进&amp;退格</a>
+              <ol>
+                <li><a href="#441-有序列表的缩退">4.4.1 有序列表的缩&amp;退</a></li>
+                <li><a href="#442-无序列表的缩退">4.4.2 无序列表的缩&amp;退</a></li>
+                <li><a href="#443-引用的缩退">4.4.3 引用的缩&amp;退</a></li>
+                <li><a href="#444-有序无序引用-连续套娃">4.4.4 有序&amp;无序&amp;引用 连续套娃</a></li>
+                <li><a href="#445-obsidian-的一些缩退问题">4.4.5 Obsidian 的一些缩退问题</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li><a href="#5-网页链接与图像">5. 网页链接与图像</a>
+          <ol>
+            <li><a href="#51-网页链接">5.1 网页链接</a>
+              <ol>
+                <li><a href="#511-链接的加粗">5.1.1 链接的加粗</a></li>
+              </ol>
+            </li>
+            <li><a href="#52-图像">5.2 图像</a>
+              <ol>
+                <li><a href="#示范-15">示范</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li><a href="#6-表格">6. 表格</a>
+          <ol>
+            <li>
+              <ol>
+                <li><a href="#示范-16">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#61-表格中文本内容的换行">6.1 表格中文本内容的换行</a>
+              <ol>
+                <li><a href="#示范-17">示范</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li><a href="#7-代码域">7. 代码域</a>
+          <ol>
+            <li><a href="#71-行内代码">7.1 行内代码</a>
+              <ol>
+                <li><a href="#示范-18">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#72-代码块">7.2 代码块</a>
+              <ol>
+                <li><a href="#示范-19">示范</a></li>
+                <li><a href="#721-代码块的嵌套">7.2.1 代码块的嵌套</a></li>
+              </ol>
+            </li>
+            <li><a href="#73-如何在行内代码里显示反引号">7.3 如何在行内代码里显示反引号</a></li>
+          </ol>
+        </li>
+        <li><a href="#8-任务列表待办">8. 任务列表（待办）</a>
+          <ol>
+            <li><a href="#示范-21">示范</a></li>
+            <li><a href="#示范-22">示范</a></li>
+          </ol>
+        </li>
+        <li><a href="#9-注释">9. 注释</a>
+          <ol>
+            <li><a href="#示范-只有切换至-编辑模式-才能看到喔">示范 <small>(只有切换至 编辑模式 才能看到喔) </small></a></li>
+          </ol>
+        </li>
+        <li><a href="#10-变量">10. 变量</a>
+          <ol>
+            <li><a href="#101-网页链接变量">10.1 网页链接变量</a>
+              <ol>
+                <li><a href="#示范-23">示范</a></li>
+              </ol>
+            </li>
+            <li><a href="#102-脚注">10.2 脚注</a>
+              <ol>
+                <li><a href="#示范-24">示范</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li><a href="#11-拓展文本格式标记">11. 拓展文本格式标记</a>
+          <ol>
+            <li><a href="#111-键盘文本">11.1 键盘文本</a>
+              <ol>
+                <li><a href="#1111-加粗键盘文本">11.1.1 加粗键盘文本</a></li>
+              </ol>
+            </li>
+            <li><a href="#112-放大文本">11.2 放大文本</a>
+              <ol>
+                <li><a href="#1121-放大粗体文本">11.2.1 放大粗体文本</a></li>
+              </ol>
+            </li>
+            <li><a href="#113-缩小文本">11.3 缩小文本</a>
+              <ol>
+                <li><a href="#1131-缩小斜体文本">11.3.1 缩小斜体文本</a></li>
+              </ol>
+            </li>
+            <li><a href="#114-多彩文本">11.4 多彩文本</a>
+              <ol>
+                <li><a href="#1141-多彩粗体文本">11.4.1 多彩粗体文本</a></li>
+                <li><a href="#1142-多彩斜体文本">11.4.2 多彩斜体文本</a></li>
+                <li><a href="#1142-多彩粗斜体文本">11.4.2 多彩粗斜体文本</a></li>
+              </ol>
+            </li>
+          </ol>
+        </li>
+        <li><a href="#12-拓展文本显示效果">12. 拓展文本显示效果</a>
+          <ol>
+            <li><a href="#121-文本高亮">12.1 文本高亮</a></li>
+            <li><a href="#122-上标">12.2 上标</a></li>
+            <li><a href="#123-下标">12.3 下标</a></li>
+            <li><a href="#124-emoji-符号">12.4 Emoji 符号</a></li>
+          </ol>
+        </li>
+        <li><a href="#13-转义字符">13. 转义字符</a>
+          <ol>
+            <li><a href="#例-1-以普通字符显示星号">例 1 以普通字符显示星号</a></li>
+            <li><a href="#例-2-表格内-单元格中的竖杠">例 2 表格内 单元格中的竖杠</a></li>
+            <li><a href="#例-3-不会变成代码的反引号">例 3 不会变成代码的反引号</a></li>
+            <li><a href="#例-4-链接中的中括号">例 4 链接中的中括号</a></li>
+            <li><a href="#例-5-不是列表的连接符横杠">例 5 不是列表的连接符(横杠)</a></li>
+            <li><a href="#例-6-不是标题的-">例 6 不是标题的 #</a></li>
+            <li><a href="#例-7-不会注释的-">例 7 不会注释的 %</a></li>
+            <li><a href="#例-8-木有链接的双链">例 8 木有链接的双链</a></li>
+            <li><a href="#例-9-页链接里-显示文本内的-中括号">例 9 页链接里 显示文本内的 中括号</a></li>
+            <li><a href="#特殊情况-文本修饰的中括号">特殊情况 文本修饰的中括号</a></li>
+          </ol>
+        </li>
+        <li><a href="#14-空格换行强制删除">14. 空格&amp;换行&amp;强制删除</a>
+          <ol>
+            <li><a href="#141-空格">14.1 空格</a></li>
+            <li><a href="#142-换行">14.2 换行</a></li>
+            <li><a href="#143-强制删除">14.3 强制删除</a></li>
+          </ol>
+        </li>
+        <li><a href="#15-嵌入">15. 嵌入</a>
+          <ol>
+            <li><a href="#151-嵌入音频">15.1 嵌入音频</a></li>
+            <li><a href="#152-嵌入视频">15.2 嵌入视频</a></li>
+            <li><a href="#153-嵌入页面">15.3 嵌入页面</a></li>
+          </ol>
+        </li>
+        <li><a href="#16-latex-数学公式">16. Latex 数学公式</a>
+          <ol>
+            <li><a href="#161-行内公式">16.1 行内公式</a></li>
+            <li><a href="#162-公式块">16.2 公式块</a></li>
+          </ol>
+        </li>
+        <li><a href="#17-mermaid">17. Mermaid</a>
+          <ol>
+            <li><a href="#171-流程图">17.1 流程图</a></li>
+            <li><a href="#172-饼图">17.2 饼图</a></li>
+            <li><a href="#173-序列图-时序图">17.3 序列图 (时序图)</a></li>
+            <li><a href="#174-甘特图">17.4 甘特图</a></li>
+            <li><a href="#175-类图">17.5 类图</a></li>
+          </ol>
+        </li>
+        <li><a href="#18-标签-tag">18. 标签 (Tag)</a>
+          <ol>
+            <li><a href="#关于空格">关于空格</a></li>
+            <li><a href="#关于数字">关于数字</a></li>
+            <li><a href="#标签的嵌套">标签的嵌套</a></li>
+            <li><a href="#能被使用的符号">能被使用的符号</a></li>
+            <li><a href="#如何让--不被识别">如何让 # 不被识别</a></li>
+          </ol>
+        </li>
+        <li><a href="#19-避免标识符的滥用">19. 避免标识符的滥用</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav> 
+  </div>
+</details>
+
+          </div>
+        </div>
       
       <div class="min-h-0 min-w-0 max-w-prose grow">
         <h1 id="什么是-markdown" class="relative group">什么是 Markdown? <span class="absolute top-0 w-6 transition-opacity opacity-0 -start-6 not-prose group-hover:opacity-100"><a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700" style="text-decoration-line: none !important;" href="#%e4%bb%80%e4%b9%88%e6%98%af-markdown" aria-label="锚点">#</a></span></h1><ol>
@@ -2946,6 +3224,40 @@ $$</p>
     
       
       
+        
+        
+
+
+
+
+
+
+
+
+  
+    <picture
+      class="!mb-0 !mt-0 me-4 w-24 h-auto rounded-full"
+      
+    >
+      
+      
+      
+      
+      <img
+        width="237"
+        height="234"
+        class="!mb-0 !mt-0 me-4 w-24 h-auto rounded-full"
+        alt="Drfy"
+        loading="lazy" decoding="async"
+        
+          src="/img/author.jpg"
+        
+      />
+    </picture>
+  
+
+
+      
     
     <div class="place-self-center">
       
@@ -2960,6 +3272,36 @@ $$</p>
         <div class="text-sm text-neutral-700 dark:text-neutral-400">A little bit about you</div>
       
       <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="mailto:hello@your_domain.com"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 transition-transform hover:scale-125 hover:text-primary-700 dark:hover:text-primary-400"
+          style="will-change:transform;"
+          href="https://github.com/3377"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="icon relative inline-block px-1 align-text-bottom"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+</span></a
+        >
+      
+    
+  </div>
+
 </div>
     </div>
   </div>
@@ -2969,12 +3311,45 @@ $$</p>
 
       
   
-
-
+    
+    
+    
       
-        
+      
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
           
-        
+            <a class="group flex" href="/post/github%E5%9B%9E%E9%80%80/">
+              <span
+                class="me-2 text-neutral-700 transition-transform group-hover:-translate-x-[2px] group-hover:text-primary-600 dark:text-neutral dark:group-hover:text-primary-400"
+                ><span class="ltr:inline rtl:hidden">&larr;</span
+                ><span class="ltr:hidden rtl:inline">&rarr;</span></span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >github回退</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2025-03-30 23:04:01 &#43;0000 UTC">2025年3月30日 23:04:01</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
       
     </footer>
   </article>
@@ -3074,7 +3449,7 @@ $$</p>
 <div
   id="search-wrapper"
   class="invisible fixed inset-0 z-50 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
-  data-url="http://localhost:1313/"
+  data-url="http://localhost:8888/"
 >
   <div
     id="search-modal"

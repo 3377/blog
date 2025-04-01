@@ -4,7 +4,16 @@
   
     
       <url>
-            <loc>http://localhost:1313/</loc>
+            <loc>http://localhost:8888/</loc>
+            <lastmod>2025-03-30T23:04:01+00:00</lastmod>
+          </url>
+    
+  
+    
+  
+    
+      <url>
+            <loc>http://localhost:8888/post/github%E5%9B%9E%E9%80%80/</loc>
             <lastmod>2025-03-30T23:04:01+00:00</lastmod>
           </url>
     
@@ -15,7 +24,7 @@
   
     
       <url>
-            <loc>http://localhost:1313/post/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B/</loc>
+            <loc>http://localhost:8888/post/obsidian%E7%9A%84markdown%E8%B6%85%E7%BA%A7%E6%95%99%E7%A8%8B/</loc>
             <lastmod>2025-03-30T23:04:01+00:00</lastmod>
           </url>
     
@@ -26,14 +35,14 @@
   
     
       <url>
-            <loc>http://localhost:1313/post/</loc>
+            <loc>http://localhost:8888/post/</loc>
             <lastmod>2025-03-30T23:04:01+00:00</lastmod>
           </url>
     
   
     
       <url>
-            <loc>http://localhost:1313/ai/</loc>
+            <loc>http://localhost:8888/ai/</loc>
             <lastmod>2025-03-29T23:04:01+00:00</lastmod>
           </url>
     
@@ -42,7 +51,7 @@
   
     
       <url>
-            <loc>http://localhost:1313/ai/google-gemini-api/</loc>
+            <loc>http://localhost:8888/ai/google-gemini-api/</loc>
             <lastmod>2025-03-29T23:04:01+00:00</lastmod>
           </url>
     
