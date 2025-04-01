@@ -1,35 +1,42 @@
 # config/_default/menus.zh-Hans.toml
 
+# -- 顶部导航菜单 --
+# 定义网站顶部导航栏的内容
+
+# 主页菜单项
 [[main]]
-  name = "博客"
-  pageRef = "post"
+  name = "主页"
+  pageRef = "/"
   weight = 10
 
+# 日常博客菜单项
 [[main]]
-  name = "AI相关"
-  pageRef = "AI"
+  name = "日常博客"
+  pageRef = "post"
   weight = 20
 
+# AI文章菜单项
 [[main]]
-  name = "标签"
-  pageRef = "tags"
-  weight = 25
-
-[[main]]
-  name = "GitHub"
-  url = "https://github.com/3377"
+  name = "AI"
+  pageRef = "ai"
   weight = 30
-  [main.params]
-    icon = "github"
-   # showName = true
-    target = "_blank"
 
+# 关于页面菜单项
+[[main]]
+  name = "关于"
+  pageRef = "about"
+  weight = 40
+
+# 搜索图标菜单项
 [[main]]
   identifier = "search"
   weight = 99
+  # 是否显示名称（设为false只显示图标）
+  showName = false
   [main.params]
-    action = "search"
     icon = "search"
+    action = "search"
+    endpoint = "search.json"
 
 [[footer]]
   name = "隐私"

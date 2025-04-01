@@ -1,86 +1,140 @@
-# -- Theme Options --
-# These options control how the theme functions and allow you to
-# customise the display of your website.
+# -- 主题选项 --
+# 这些选项控制主题的功能和允许自定义网站显示
 #
-# Refer to the theme docs for more details about each of these parameters.
+# 有关每个参数的更多详细信息，请参阅主题文档
 # https://jpanther.github.io/congo/docs/configuration/#theme-parameters
 
+# 颜色方案
 colorScheme = "congo"
-defaultAppearance = "light" # valid options: light or dark
+# 默认外观：light(亮色)或dark(暗色)
+defaultAppearance = "light" 
+# 是否自动切换外观
 autoSwitchAppearance = true
 
+# 默认主题颜色
 defaultThemeColor = "#FFFFFF"
 
+# 是否启用搜索功能
 enableSearch = true
+# 是否启用代码复制按钮
 enableCodeCopy = true
+# 是否启用图片懒加载
 enableImageLazyLoading = true
+# 是否启用WebP图片格式
 enableImageWebp = true
 
+# robots元标签内容
 # robots = ""
+# 指纹算法
 fingerprintAlgorithm = "sha256"
 
+# 头部设置
 [header]
-  layout = "basic" # valid options: basic, hamburger, hybrid, custom
+  # 布局类型：basic(基本), hamburger(汉堡菜单), hybrid(混合), custom(自定义)
+  layout = "basic" 
   # logo = "img/logo.jpg"
   # logoDark = "img/dark-logo.jpg"
+  # 是否显示标题
   showTitle = true
 
+# 底部设置
 [footer]
+  # 是否显示版权信息
   showCopyright = true
+  # 是否显示主题归属
   showThemeAttribution = true
+  # 是否显示外观切换器
   showAppearanceSwitcher = true
+  # 是否显示回到顶部按钮
   showScrollToTop = true
 
+# 首页设置
 [homepage]
-  layout = "profile" # valid options: page, profile, custom
+  # 布局类型：page(页面), profile(个人资料), custom(自定义)
+  layout = "profile" 
+  # 显示的最近内容类型
   showRecent = ["post", "ai"]
+  # 最近内容显示数量限制
   recentLimit = 5
 
+# 文章设置
 [article]
+  # 是否显示日期
   showDate = true
+  # 是否显示更新日期
   showDateUpdated = true
+  # 是否显示作者
   showAuthor = true
+  # 是否显示面包屑导航
   showBreadcrumbs = true
+  # 是否显示草稿标签
   showDraftLabel = true
+  # 是否显示编辑链接
   showEdit = true
+  # 编辑URL
   editURL = "https://github.com/3377/blog/"
+  # 是否在编辑URL中添加路径
   editAppendPath = true
+  # 是否显示标题锚点
   showHeadingAnchors = true
+  # 是否显示分页
   showPagination = true
+  # 是否反转分页顺序
   invertPagination = true
+  # 是否显示阅读时间
   showReadingTime = true
+  # 是否显示目录
   showTableOfContents = true
+  # 是否显示分类
   showTaxonomies = true
+  # 是否显示字数统计
   showWordCount = true
+  # 是否显示评论
   showComments = false
+  # 分享链接配置
   # sharingLinks = ["facebook", "x-twitter", "mastodon", "pinterest", "reddit", "linkedin", "email", "threads", "telegram", "line", "weibo"]
 
+# 列表设置
 [list]
+  # 是否显示面包屑导航
   showBreadcrumbs = true
+  # 是否显示摘要，控制文章列表中是否显示文章摘要
   showSummary = true
+  # 是否显示目录
   showTableOfContents = false
+  # 是否显示分类
   showTaxonomies = true
+  # 是否按年份分组
   groupByYear = true
+  # 分页宽度
   paginationWidth = 1
 
+# 站点地图设置
 [sitemap]
+  # 排除的内容类型
   excludedKinds = ["taxonomy", "term"]
 
+# 分类法设置
 [taxonomy]
+  # 是否显示术语计数
   showTermCount = true
 
+# Fathom Analytics分析配置
 [fathomAnalytics]
   # site = "ABC12345"
 
+# Plausible Analytics分析配置
 [plausibleAnalytics]
   # domain = "blog.yoursite.com"
   # event = ""
   # script = ""
 
+# Umami Analytics分析配置
 #[umamiAnalytics]
 #  site = "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
-#  region = "eu"  # can be either "eu" or "us"
+#  region = "eu"  # 可以是 "eu" 或 "us"
 
+# 验证设置
 [verification]
   # google = ""
   # bing = ""

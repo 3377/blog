@@ -1,2 +1,5 @@
+# -- 模块配置 --
+# 导入Congo主题
+
 [[imports]]
 path = "github.com/jpanther/congo/v2"

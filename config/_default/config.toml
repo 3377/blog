@@ -1,19 +1,30 @@
-# -- Site Configuration --
-# Refer to the theme docs for more details about each of these parameters.
+# -- 站点配置 --
+# 详细信息请参考主题文档中的各项参数说明
 # https://jpanther.github.io/congo/docs/getting-started/
 
-baseURL = "https://fybk.pages.dev/"
+# 网站的基本URL
+baseURL = "https://fy.ll.sd/"
+# 默认内容语言
 defaultContentLanguage = "zh-Hans"
 
+# 启用robots.txt
 enableRobotsTXT = true
+# 摘要长度，设置为大于0的值使其生效
+# 0表示使用Hugo默认的智能摘要截取
 summaryLength = 0
 
+# 分页配置
 [pagination]
+  # 分页器大小
   pagerSize = 10
 
+# 分类法配置
 [taxonomies]
+  # 定义标签和分类
   tag = "tags"
   category = "categories"
 
+# 输出格式配置
 [outputs]
+  # 首页输出HTML、RSS和JSON格式
   home = ["HTML", "RSS", "JSON"]

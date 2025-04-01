@@ -24,7 +24,7 @@ showWordCount: true # 是否显示字数统计
 
 # 文章元信息 - 可选
 #description: "测试" # 文章描述，会显示在搜索引擎结果中
-#summary: "测试" # 自定义摘要，如不填写则自动截取文章开头
+summary: "关于github回退的几种方式" # 自定义摘要，如不填写则自动截取文章开头
 
 # 显示控制 - 可选
 hideInList: false # 是否在文章列表中隐藏

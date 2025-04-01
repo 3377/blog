@@ -1,16 +1,26 @@
-# -- Markup --
-# These settings are required for the theme to function.
+# -- 标记语言设置 --
+# 这些设置是主题正常工作所必需的
 
+# Goldmark设置（Hugo的默认Markdown解析器）
 [goldmark]
 [goldmark.renderer]
+  # 允许在Markdown中使用HTML
   unsafe = true
 
+# 代码高亮设置
 [highlight]
+  # 不使用CSS类进行代码高亮
   noClasses = false
+  # 启用代码围栏（使用```包围的代码块）
   codeFences = true
+  # 自动猜测代码块的语言
   guessSyntax = true
 
+# 目录设置
 [tableOfContents]
+  # 从第一级标题开始
   startLevel = 1
+  # 到第三级标题结束
   endLevel = 3
+  # 是否有序排列
   ordered  = true
