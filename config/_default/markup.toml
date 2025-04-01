@@ -7,8 +7,10 @@
 
 [highlight]
   noClasses = false
+  codeFences = true
+  guessSyntax = true
 
 [tableOfContents]
   startLevel = 1
-  endLevel = 4
+  endLevel = 3
   ordered  = true

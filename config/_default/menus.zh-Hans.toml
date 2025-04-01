@@ -21,7 +21,7 @@
   weight = 30
   [main.params]
     icon = "github"
-    showName = true
+   # showName = true
     target = "_blank"
 
 [[main]]
