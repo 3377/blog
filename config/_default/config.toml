@@ -11,5 +11,9 @@ summaryLength = 0
 [pagination]
   pagerSize = 10
 
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
