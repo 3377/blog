@@ -6,6 +6,7 @@ tags:
   - obsidian
   - 教程
 draft: false
+ShowTableOfContents: true
 ---
 
 # 什么是 Markdown?
