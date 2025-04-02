@@ -9,6 +9,8 @@ defaultContentLanguage = "zh-Hans"
 
 # 启用robots.txt
 enableRobotsTXT = true
+# 显示未来日期的文章
+buildFuture = true
 # 摘要长度，设置为大于0的值使其生效
 # 0表示使用Hugo默认的智能摘要截取
 summaryLength = 0

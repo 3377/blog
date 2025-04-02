@@ -1,7 +1,6 @@
 ---
-title: "日常博客"
-description: "日常博客"
-showTableOfContents: true
+title: "日常随想"
+description: "记录日常的琐碎"
 ---
 
-这里是所有日常随想的文章。
+这里是所有记录日常的琐碎的文章
