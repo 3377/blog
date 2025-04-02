@@ -2,7 +2,12 @@
   {{- $images := $.Resources.ByType "image" }}
   {{- $thumbnail := $images.GetMatch (.Params.thumbnail | default "*thumb*") }}
   {{- $feature := $images.GetMatch (.Params.feature | default "*feature*") | default $thumbnail }}
-  {{- with $feature }}
+  {{- $staticImage := "" }}
+  {{- $urlImage := "" }}
+  {{- with .Params.staticImage }}{{- $staticImage = . }}{{- end }}
+  {{- with .Params.urlImage }}{{- $urlImage = . }}{{- end }}
+  
+  {{- if $feature }}
     <div class="flex-none pe-4 sm:pe-6 ">
       <a
         href="{{ with $.Params.externalUrl }}
@@ -23,6 +28,34 @@
             160w, {{- (.Fill "320x240 smart").RelPermalink }} 2x"
             src="{{ (.Fill "160x120 smart").RelPermalink }}" width="160" height="120"
           {{ end }}
+          {{ if $.Site.Params.enableImageLazyLoading | default true }}
+            loading="lazy"
+          {{ end }}
+        />
+      </a>
+    </div>
+  {{- else if $staticImage }}
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a href="{{ $.RelPermalink }}" aria-label="{{ $.Title | emojify }}">
+        <img
+          alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
+          class="w-24 rounded-md sm:w-40"
+          src="{{ $staticImage }}"
+          width="160" height="120"
+          {{ if $.Site.Params.enableImageLazyLoading | default true }}
+            loading="lazy"
+          {{ end }}
+        />
+      </a>
+    </div>
+  {{- else if $urlImage }}
+    <div class="flex-none pe-4 sm:pe-6 ">
+      <a href="{{ $.RelPermalink }}" aria-label="{{ $.Title | emojify }}">
+        <img
+          alt="{{ $.Params.featureAlt | default $.Params.thumbnailAlt | default "" }}"
+          class="w-24 rounded-md sm:w-40"
+          src="{{ $urlImage }}"
+          width="160" height="120"
           {{ if $.Site.Params.enableImageLazyLoading | default true }}
             loading="lazy"
           {{ end }}

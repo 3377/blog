@@ -122,3 +122,42 @@ article img {
         border-bottom-color: rgba(235, 235, 235, 0.2);
     }
 }
+
+/* 美化滚动条样式 - 透明化现代风格 */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(155, 155, 155, 0.3);
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(155, 155, 155, 0.5);
+}
+
+/* 适配深色模式的滚动条 */
+.dark ::-webkit-scrollbar-thumb {
+    background-color: rgba(200, 200, 200, 0.2);
+}
+
+.dark ::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(200, 200, 200, 0.4);
+}
+
+/* Firefox滚动条样式 (虽然支持有限) */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(155, 155, 155, 0.3) transparent;
+}
+
+.dark * {
+    scrollbar-color: rgba(200, 200, 200, 0.2) transparent;
+}

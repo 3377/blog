@@ -11,7 +11,7 @@ tags:
   - 教程
 #categories: # 文章分类，层级高于标签
 #  - { { VALUE:分类 } }
-
+urlImage: "https://cxt.pages.dev/file/1735282354196_hstz-new.png"
 # 布局控制 - 可选
 showTableOfContents: true # 是否显示右侧目录导航，true开启，false关闭
 showComments: false # 是否显示评论区域，true开启，false关闭
@@ -134,8 +134,7 @@ images: # 文章图片，第一张会用作社交媒体分享时的预览图
 
 执行完这些命令后，你的本地和远程 `main` 分支的文件状态将回到 `0100870` 时的状态，但 Git 历史中会包含 `0100870` 之后的所有提交以及一个最终的 revert 提交。
 
-
-## ✨修改提交默认账号
+## ✨ 修改提交默认账号
 
 ==默认使用某个账号提交某个仓库==
 
