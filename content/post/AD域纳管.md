@@ -1,3 +1,36 @@
+---
+title: AD域纳管
+subtitle: AD域纳管
+date: 2026-01-29 13:41:43
+publishDate: 2026-01-29 13:41:43
+aliases: 
+description: 
+image: 
+draft: false
+hideToc: false
+enableToc: true
+enableTocContent: false
+tocPosition: inner
+author: VictorHong
+authorEmoji: 🪶
+authorImageUrl: 
+tocLevels:
+  - h2
+  - h3
+  - h4
+libraries:
+  - katex
+  - mathjax
+  - mermaid
+  - chart
+  - flowchartjs
+  - msc
+  - viz
+  - wavedrom
+tags: 
+series: 
+categories:
+---
 基于 Casdoor 的企业身份统一纳管落地手册。方案以 **Active Directory (AD)** 为底层核心账号源，**Casdoor** 为身份中台，**企业微信** 为移动端门户，最终对接 **致远 OA** 等业务系统。
 
 ---
